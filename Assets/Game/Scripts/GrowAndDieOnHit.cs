@@ -8,12 +8,12 @@ public class GrowAndDieOnHit : MonoBehaviour
 
     [Header("Death")]
     public LayerMask projectileLayers;
-    private HalfCylinderWallSpawner spawner;
+    private WallSpawner spawner;
     private Vector3 startScale;
     private Vector3 targetScale;
     private bool isDead;
 
-    public void Initialize(HalfCylinderWallSpawner owningSpawner)
+    public void Initialize(WallSpawner owningSpawner)
     {
         spawner = owningSpawner;
 
