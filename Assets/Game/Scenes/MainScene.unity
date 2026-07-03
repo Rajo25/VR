@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9e5b19a56ec2769409a3e95dab7557ba, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -4805,14 +4805,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2049925577}
     m_Modifications:
-    - target: {fileID: 2170061526446600939, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
-      propertyPath: m_InteractorSource
-      value: 
-      objectReference: {fileID: 556943861}
-    - target: {fileID: 8652840375374309331, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
-      propertyPath: m_HapticImpulsePlayer
-      value: 
-      objectReference: {fileID: 2049925578}
     - target: {fileID: 893022157044498267, guid: c5c7d400e4c7b2a1a8cac0f80a572998, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4857,6 +4849,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left Hand Visual
       objectReference: {fileID: 0}
+    - target: {fileID: 2170061526446600939, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_InteractorSource
+      value: 
+      objectReference: {fileID: 556943861}
+    - target: {fileID: 8652840375374309331, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_HapticImpulsePlayer
+      value: 
+      objectReference: {fileID: 2049925578}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
