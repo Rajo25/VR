@@ -60,11 +60,13 @@ public class GrowAndDieOnHit : MonoBehaviour
         if (layerMatches)
         {
             isDead = true;
-
-            if (spawner != null)
-                spawner.NotifyPrefabDied();
-
             Destroy(gameObject);
         }
+    }
+    
+    private void OnDestroy()
+    {
+        if (spawner != null)
+            spawner.NotifyPrefabDied();
     }
 }

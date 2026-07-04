@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a75b1945bd4f03f26b9eaf1d1f470187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxScaleMultiplier: 3
+  maxScaleMultiplier: 2
   growSpeed: 0.5
   projectileLayers:
     serializedVersion: 2
